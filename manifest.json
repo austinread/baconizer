@@ -3,12 +3,16 @@
 
   "name": "Baconizer",
   "description": "Turns every image on the page into bacon.  Because bacon",
-  "version": "1.0",
+  "version": "1.1",
   "background": { "scripts": ["jquery-1.9.1.min.js", "baconizer.js"] },
   
   "browser_action": {
     "default_icon": "images/icon.png"
   },
+
+  "icons": { "16": "images/icon16.png",
+           "48": "images/icon48.png",
+          "128": "images/icon128.png" },
 
   "permissions": [
     "tabs", "http://*/*", "https://*/*", "https://secure.flickr.com/"
