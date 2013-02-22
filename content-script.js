@@ -1,19 +1,9 @@
 ﻿//define all bacon picture URLS
-var bacon1 = chrome.extension.getURL('images/bacon1.jpg');
-var bacon2 = chrome.extension.getURL('images/bacon2.jpg');
-var bacon3 = chrome.extension.getURL('images/bacon3.jpg');
-var bacon4 = chrome.extension.getURL('images/bacon4.jpg');
-var bacon5 = chrome.extension.getURL('images/bacon5.jpg');
-var bacon6 = chrome.extension.getURL('images/bacon6.png');
-var bacon7 = chrome.extension.getURL('images/bacon7.jpg');
-var bacon8 = chrome.extension.getURL('images/bacon8.jpg');
-var bacon9 = chrome.extension.getURL('images/bacon9.jpg');
-var bacon10 = chrome.extension.getURL('images/bacon10.jpg');
-var bacon11 = chrome.extension.getURL('images/bacon11.jpeg');
-var bacon12 = chrome.extension.getURL('images/bacon12.jpg');
-var bacon13 = chrome.extension.getURL('images/bacon13.jpg');
-var bacon14 = chrome.extension.getURL('images/bacon14.jpeg');
-var bacon15 = chrome.extension.getURL('images/bacon15.jpg');
+﻿var bacon_limit = 15;
+﻿var baconPics = [];
+﻿for (var i=1; i<=bacon_limit;i++) {
+﻿    baconPics.push(chrome.extension.getURL('images/bacon' + i + '.jpg'));
+﻿}
 
 var images = document.getElementsByTagName("img");  //all images on the page
 var baconPics = [bacon1, bacon2, bacon3, bacon4, bacon5,
