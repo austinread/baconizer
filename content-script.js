@@ -6,9 +6,6 @@
 ﻿}
 
 var images = document.getElementsByTagName("img");  //all images on the page
-var baconPics = [bacon1, bacon2, bacon3, bacon4, bacon5,
-    bacon6, bacon7, bacon8, bacon9, bacon10, 
-    bacon11, bacon12, bacon13, bacon14, bacon15, ]; //list of all our different bacon pics
 var rand;                                           //var for random number
 
 for (var i = 0; i < images.length; i++) {
