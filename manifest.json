@@ -24,15 +24,21 @@
 	"images/bacon3.jpg",
 	"images/bacon4.jpg",
 	"images/bacon5.jpg",
-	"images/bacon6.png",
+	"images/bacon6.jpg",
 	"images/bacon7.jpg",
 	"images/bacon8.jpg",
 	"images/bacon9.jpg",
 	"images/bacon10.jpg",
-	"images/bacon11.jpeg",
+	"images/bacon11.jpg",
 	"images/bacon12.jpg",
 	"images/bacon13.jpg",
-	"images/bacon14.jpeg",
+	"images/bacon14.jpg",
 	"images/bacon15.jpg"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["jquery-1.9.1.min.js"]
+    }
   ]
 }
