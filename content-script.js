@@ -1,4 +1,4 @@
-﻿//define all bacon picture URLS
+//define all bacon picture URLS
 ﻿var bacon_limit = 15;
 ﻿var baconPics = [];
 ﻿for (var i=1; i<=bacon_limit; i++) {
