@@ -5,7 +5,7 @@
 ﻿    baconPics.push(chrome.extension.getURL('images/bacon' + i + '.jpg'));
 ﻿}
 
-var rand;                                           //var for random number
+var rand;   //var for random number
 
 $("img").each (function () {
     //retain original width and height

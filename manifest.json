@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "Baconizer",
-  "description": "Turns every image on the page into bacon.  Because bacon",
-  "version": "1.1",
+  "description": "Turns every image on the page into bacon with a single click!  Because bacon!",
+  "version": "1.2",
   "background": { "scripts": ["jquery-1.9.1.min.js", "baconizer.js"] },
   
   "browser_action": {
@@ -15,7 +15,7 @@
           "128": "images/icon128.png" },
 
   "permissions": [
-    "tabs", "http://*/*", "https://*/*", "https://secure.flickr.com/"
+    "tabs", "contextMenus", "http://*/*", "https://*/*"
   ],
 
   "web_accessible_resources": [
