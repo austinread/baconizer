@@ -3,7 +3,7 @@
 
   "name": "Baconizer",
   "description": "Turns every image on the page into bacon with a single click!  Because bacon!",
-  "version": "1.2",
+  "version": "1.2.1",
   "background": { "scripts": ["jquery-1.9.1.min.js", "baconizer.js"] },
   
   "browser_action": {
